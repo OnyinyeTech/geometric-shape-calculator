@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Geometric Shape Calculator" />
+    <title>Area of a trapezium</title>
+    <link rel="shortcut icon" href="image/calculator.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/cal.css">
+  </head>
+  <body>
+    <div class="calculator">
+        <h1>Area of a Trapezium</h1>
+        <div class="input-group">
+          <label for="sideA">Side a:</label>
+          <input type="number" id="sideA" placeholder="Enter side a" required />
+        </div>
+        <div class="input-group">
+          <label for="sideB">Side b:</label>
+          <input type="number" id="sideB" placeholder="Enter side b" required />
+        </div>
+        <div class="input-group">
+          <label for="sideC">Side c:</label>
+          <input type="number" id="sideC" placeholder="Enter side h" required />
+        </div>
+        <button onclick="calculateTrapeziumArea()">
+          Calculate Area
+        </button>
+        <div id="trapeziumResult"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

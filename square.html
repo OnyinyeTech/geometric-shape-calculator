@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Geometric Shape Calculator" />
+    <title>Area of a square</title>
+    <link rel="shortcut icon" href="image/calculator.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/cal.css">
+  </head>
+  <body>
+    <div class="calculator">
+    <!-- Rectangle Area -->
+      <h1>Area of a Rectangle</h1>
+      <div class="input-group">
+        <label for="length">Length:</label>
+        <input type="number" id="length" placeholder="Enter length" required />
+      </div>
+      <div class="input-group">
+        <label for="width">Width:</label>
+        <input type="number" id="width" placeholder="Enter width" required />
+      </div>
+      <button onclick="calculateRectangleArea()">
+        Calculate Area
+      </button>
+      <div id="rectangleResult"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

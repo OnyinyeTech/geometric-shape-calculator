@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Geometric Shape Calculator" />
+    <title>Area of a triangle</title>
+    <link rel="shortcut icon" href="image/calculator.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/cal.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- triangle Area -->
+      <h1>Area of a Triangle</h1>
+      <div class="input-group">
+        <label for="base">Base (b):</label>
+        <input type="number" id="base" placeholder="Enter base" required />
+      </div>
+      <div class="input-group">
+        <label for="height">Height (h):</label>
+        <input type="number" id="height" placeholder="Enter height" required />
+      </div>
+      <button onclick="calculateArea()">Calculate Area</button>
+      <div id="result"></div>
+      <br />
+
+      <h1>Area of a Triangle Using Heron's Formula</h1>
+      <div class="input-group">
+        <label for="sideA">Side a:</label>
+        <input type="number" id="sideA" placeholder="Enter side a" required />
+      </div>
+      <div class="input-group">
+        <label for="sideB">Side b:</label>
+        <input type="number" id="sideB" placeholder="Enter side b" required />
+      </div>
+      <div class="input-group">
+        <label for="sideC">Side c:</label>
+        <input type="number" id="sideC" placeholder="Enter side c" required />
+      </div>
+      <button onclick="calculateHeronArea()">
+        Calculate Area (Heron's Formula)
+      </button>
+      <div id="heronResult"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

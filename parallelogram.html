@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Geometric Shape Calculator" />
+    <title>Area of a parallelogram</title>
+    <link rel="shortcut icon" href="image/calculator.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/cal.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- triangle Area -->
+      <h1>Area of a Parallelogram</h1>
+      <div class="input-group">
+        <label for="base">Base (b):</label>
+        <input type="number" id="base" placeholder="Enter base" required />
+      </div>
+      <div class="input-group">
+        <label for="height">Height (h):</label>
+        <input type="number" id="height" placeholder="Enter height" required />
+      </div>
+      <button onclick="calculateParallelogramArea()">Calculate Area</button>
+      <div id="parallelogramResult"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
