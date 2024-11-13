@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+}
+a:hover{
+    color: dodgerblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    padding: 10px;
+}
+
+nav a:hover:after{
+    color: brown;
+}
+h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+h3{
+    font-size: 1.6rem;
+    color: dodgerblue;
+    padding: 0 1rem;
+}
+p{
+    font-size: 1.1rem;
+    padding: 0 1rem;
+
+}
+img{
+    width: 50%;
+    height: auto;
+}
+.img{
+    text-align: center;
+}
+ul{
+    list-style: number;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
